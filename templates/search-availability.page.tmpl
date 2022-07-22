@@ -1,0 +1,53 @@
+{{template "base" .}}
+
+{{define "content"}}
+<div class="container">
+
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<h1 class="mt-5">Search for Availability</h1>
+
+				<form action="" method="get" novalidate class="needs-validation">
+
+						<!-- <div class="row">
+							<div class="col">
+								<div class="form-group">
+									<label for="start_date" class="form-label">Starting Date</label>
+									<input required type="date" class="form-control" id="start_date" name="start_date" aria-describedby="startDateHelp">
+									<div id="startDateHelp" class="form-text">Enter your starting date in the form of YYYY-MM-DD</div>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="form-group">
+									<label for="end_date" class="form-label">Ending Date</label>
+									<input required type="date" class="form-control" id="end_date" name="end_date" aria-describedby="endDateHelp">
+									<div id="endDateHelp" class="form-text">Enter your ending date in the form of YYYY-MM-DD</div>
+								</div>
+							</div>
+						</div> -->
+
+						<div class="form-row">
+							<div class="col">
+								<div class="row" id="reservation-dates">
+									<div class="col">
+										<input required type="text" name="start" placeholder="Arrival">
+									</div>
+									<div class="col">
+										<input required type="text" name="end" placeholder="Depart">
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr>
+
+						<button type="submit" class="btn btn-primary">Search Availability</button>
+						</form>											
+			</div>	
+		</div>
+
+{{end}}
+
+
+
