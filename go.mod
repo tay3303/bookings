@@ -3,8 +3,12 @@ module github.com/tsawler/bookings
 go 1.18
 
 require (
-	github.com/alexedwards/scs/v2 v2.5.0 // indirect
-	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
+	github.com/alexedwards/scs/v2 v2.5.0
+	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
+	golang.org/x/tools v0.0.0-20200103221440-774c71fcf114
+)
+
+require (
 	github.com/go-chi/chi/v5 v5.0.7 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.13.0 // indirect
